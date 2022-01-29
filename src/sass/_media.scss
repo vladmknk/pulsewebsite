@@ -1,0 +1,117 @@
+@media (max-width: 991px) {
+    .promo {
+        .header {
+            width: 100%;
+            justify-content: space-between;
+            &__logo {
+                width: 190px;
+            }
+        }
+        &__wrapper {
+            align-items: center;
+        }
+    }
+    .advantage {
+/*             ::before, ::after {
+            content: '';
+            width: 100%;
+            order: 1;
+        }
+            display: flex;   
+            flex-wrap: wrap; */
+        &__icons {
+            width: 100%;   
+        }
+/*         &__icon:nth-child(3) {
+            order: 1;
+            margin: 0 auto;
+        } */
+    }
+    .consultation {
+        .title {
+            &_left {
+                text-align: center;
+            }
+        }
+        &__desc {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .feed-form {
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .promo {
+        .header {
+            width: 100%;
+            &__official {
+                display: none;
+            }
+        }
+    }
+    .advantage {
+        &__icons {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 100%;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        &__icon {
+            margin-top: 15px;
+        }
+        &__icon:nth-child(3) {
+            order: 1;
+        }
+    }
+}
+@media (max-width: 575px) {
+    .promo {
+        padding: 15px 0 30px 0;
+        .header {
+            justify-content: center;
+            &__contacts {
+                display: none;
+            }
+        }
+        &__header {
+            text-align: center;
+            font-size: 30px;
+        }
+        &__subheader {
+            text-align: center;
+            font-size: 21px;
+        }
+        &__icons {
+            width: 100%;
+            margin-top: 45px;
+            justify-content: center;
+        }
+        &__icon {
+            font-size: 13px;
+            img {
+                width: 35px;
+                height: 35px;
+                margin-bottom: 13px;
+            }
+        }
+    }
+    .consultation {
+        .title {
+            &_left {
+                font-size: 20px;
+            }
+        }
+        &__desc {
+            font-size: 15px;
+        }
+        .feed-form {
+            width: 200px;
+        }
+    }
+}
+
+    
